@@ -1,0 +1,7 @@
+COMMAND OBJECT single_feed_coor set ( origin : struct(x: 0 m, y: 0 m, z:  5.5 m), class : coor_sys) cmd_1 
+COMMAND OBJECT single_cut set ( file_name : single_cut1.cut, class : spherical_cut)  cmd_2
+COMMAND OBJECT single_po get_currents ( source : sequence(ref(single_feed)))  cmd_3
+COMMAND OBJECT single_cut get_field ( source : sequence(ref(single_po))) cmd_4
+QUIT 
+
+

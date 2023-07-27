@@ -1,0 +1,18 @@
+ 
+ GRASP-SE version 10.3.0 (Windows ia32/x86 32-bit)
+ 
+ (Student edition limited to 1 CPU core)
+ 
+ Program started at 14:55:26 on 20 November 2019
+GRASP-SE>COMMAND OBJECT single_po get_currents ( source : sequence(ref(single_feed)))   single_po_cmd 
+ ----- TASK No. 1 -----     Started at 14:55:26 on November 20, 2019             
+  PO1 =   27  PO2 =   93  Face =    1, Final PO-values from auto-convergence
+  Spill-over:     0.0372 dB
+ Total task time:  0.17 sec               
+GRASP-SE>COMMAND OBJECT single_cut get_field ( source : sequence(ref(single_po)))   single_get_field_cmd 
+ ----- TASK No. 2 -----     Started at 14:55:27 on November 20, 2019             
+ Total task time:  0.06 sec               
+GRASP-SE>QUIT 
+ ----- END OF TASKS -----     Completed at 14:55:27 on November 20, 2019         
+ Total time was 0.30 sec
+ Program stopped at 14:55:27 on 20 November 2019

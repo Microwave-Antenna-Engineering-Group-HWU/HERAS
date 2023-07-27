@@ -1,0 +1,5 @@
+COMMAND OBJECT single_po get_currents ( source : sequence(ref(single_feed)))  &
+single_po_cmd 
+COMMAND OBJECT single_cut get_field ( source : sequence(ref(single_po)))  &
+single_get_field_cmd 
+QUIT 

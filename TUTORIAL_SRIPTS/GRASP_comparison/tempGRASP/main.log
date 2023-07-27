@@ -1,0 +1,22 @@
+ 
+ GRASP-SE version 10.3.0 (Windows ia32/x86 32-bit)
+ 
+ (Student edition limited to 1 CPU core)
+ 
+ Program started at 12:51:46 on 27 July 2023
+GRASP-SE>COMMAND OBJECT single_feed_coor set ( origin : struct(x: 0 m, y: 0 m, z:  5.5 m), class : coor_sys) cmd_1 
+ ----- TASK No. 1 -----     Started at 12:51:46 on July 27, 2023                 
+GRASP-SE>COMMAND OBJECT single_cut set ( file_name : single_cut1.cut, class : spherical_cut)  cmd_2
+ ----- TASK No. 2 -----     Started at 12:51:46 on July 27, 2023                 
+GRASP-SE>COMMAND OBJECT single_po get_currents ( source : sequence(ref(single_feed)))  cmd_3
+ ----- TASK No. 3 -----     Started at 12:51:46 on July 27, 2023                 
+  PO1 =  185  PO2 =  680  Face =    1, Final PO-values from auto-convergence
+  Spill-over:     0.3399 dB
+ Total task time:  0.43 sec               
+GRASP-SE>COMMAND OBJECT single_cut get_field ( source : sequence(ref(single_po))) cmd_4
+ ----- TASK No. 4 -----     Started at 12:51:47 on July 27, 2023                 
+ Total task time:  2.32 sec               
+GRASP-SE>QUIT 
+ ----- END OF TASKS -----     Completed at 12:51:49 on July 27, 2023             
+ Total time was 2.81 sec
+ Program stopped at 12:51:49 on 27 July 2023

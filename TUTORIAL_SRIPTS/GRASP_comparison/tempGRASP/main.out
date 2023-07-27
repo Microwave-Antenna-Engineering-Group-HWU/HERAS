@@ -1,0 +1,428 @@
+ 
+ 
+                                    G R A S P 9 - S E
+                                    =================
+ 
+  Student edition of General multi-reflector analysis program
+ 
+ GRASP-SE version 10.3.0 (Windows ia32/x86 32-bit)
+ 
+ 
+ GRASP-SE found  12 CPU cores
+ (Student edition limited to 1 CPU core)
+ 
+  Reading tor-file: SingleReflector.tor
+ 
+ 
+  *** Object name:  single_global_coor
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_global_coor
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  single_frequencies
+  *** Class name :  frequency
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_frequencies
+  *** Class name :  frequency
+  *** Message    :  New values in object
+ 
+  Frequency No.    1  :   0.177000E+02 GHz
+ 
+ 
+  *** Object name:  single_surface
+  *** Class name :  paraboloid
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_surface
+  *** Class name :  paraboloid
+  *** Message    :  New values in object
+ 
+ 
+  Focal length     :    5.50000 m
+   and in SI units :    5.50000 meter
+ 
+ 
+  *** Object name:  single_rim
+  *** Class name :  elliptical_rim
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_rim
+  *** Class name :  elliptical_rim
+  *** Message    :  Definition of elliptical_rim
+ 
+  The rim centre is placed at
+    x :    3.10000 m
+    y :    0.00000 m
+  and in SI units
+    x :    3.10000     meter
+    y :    0.00000     meter
+ 
+  The half axes of the ellipse are defined by
+    in x-direction :    1.37500 m
+    in y-direction :    1.37500 m
+  and in SI units
+    in x-direction :    1.37500     meter
+    in y-direction :    1.37500     meter
+ 
+  The rim limits in radii are
+    minimum :    1.37500     meter
+    maximum :    1.37500     meter
+ 
+  The rim limits in x direction are
+    minimum :    1.72500     meter
+    maximum :    4.47500     meter
+ 
+  The rim limits in y direction are
+    minimum :   -1.37500     meter
+    maximum :    1.37500     meter
+ 
+ 
+  *** Object name:  single_reflector
+  *** Class name :  reflector
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_reflector
+  *** Class name :  reflector
+  *** Message    :  New values in object
+ 
+  Coordinate system: single_global_coor
+  Surface: single_surface
+  Rim: single_rim
+ 
+ 
+  *** Object name:  single_feed_coor
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_feed_coor
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 m     0.000000E+00 m     0.550000E+01 m
+  Base name : single_global_coor
+  X_axis :     0.852844    0.000000    0.522165
+  Y_axis :     0.000000   -1.000000    0.000000
+  Z_axis :     0.522165    0.000000   -0.852844
+ 
+ 
+  *** Object name:  single_feed
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_feed
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_feed
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  New values in object
+ 
+  Frequency : single_frequencies
+  Coor_sys : single_feed_coor
+ 
+ 
+  *** Object name:  single_feed
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Definition of common feed attributes
+ 
+ 
+  Forced far field is : on
+ 
+ 
+  *** Object name:  single_feed
+  *** Class name :  gaussian_beam_pattern
+  *** Message    :  Definition of gaussian feed
+ 
+ 
+  Taper angle :   13.6527 degrees
+ 
+  Taper compared to on-axis level :  -12.0000 dB
+ 
+  The principal polarisation is : lhc
+ 
+  The imaginary displacement along the negative z-axis
+    is   7.70164 wavelengths
+ 
+ 
+  *** Object name:  single_cut_coor
+  *** Class name :  coor_sys
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_cut_coor
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.310000E+01 m     0.000000E+00 m     0.436818E+00 m
+  Base name : single_global_coor
+  Z_axis :     0.000000    0.000000    1.000000
+ 
+ 
+  *** Object name:  spherical_grid
+  *** Class name :  spherical_grid
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  spherical_grid
+  *** Class name :  spherical_grid
+  *** Message    :  New values in object
+ 
+  File name :
+  Coor_sys : single_cut_coor
+  Polarisation : circular
+  X range : start  -0.10000    end   0.10000    points    51
+  Y range : start  -0.10000    end   0.10000    points    51
+ 
+ 
+  *** Object name:  single_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_cut
+  *** Class name :  spherical_cut
+  *** Message    :  New values in object
+ 
+  File name :
+  Coor_sys : single_cut_coor
+  Polarisation : circular
+  Theta range : start -90.00000    end  90.00000    points  1001
+  Phi range : start   0.00000    end  90.00000    points     3
+ 
+ 
+  *** Object name:  single_po
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  single_po
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  New values in object
+ 
+  Method : po
+  Frequency : single_frequencies
+  Scatterer : single_reflector
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1
+  *** Class name :  view
+  *** Message    :  New values in object
+ 
+ 
+  Number of objects :      4
+ 
+  Definition of objects   :
+   No.  Name
+     1  view_1_coor_sys_plot
+     2  view_1_reflector_plot
+     3  view_1_feed_plot
+     4  view_1_output_points_plot
+ 
+ 
+ 
+  *** Object name:  view_1_coor_sys_plot
+  *** Class name :  coor_sys_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1_coor_sys_plot
+  *** Class name :  coor_sys_plot
+  *** Message    :  Definition of coor_sys_plot
+ 
+ 
+ 
+  *** Object name:  view_1_reflector_plot
+  *** Class name :  reflector_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1_reflector_plot
+  *** Class name :  reflector_plot
+  *** Message    :  Definition of reflector_plot
+ 
+ 
+ 
+  *** Object name:  view_1_feed_plot
+  *** Class name :  feed_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1_feed_plot
+  *** Class name :  feed_plot
+  *** Message    :  Definition of feed_plot
+ 
+ 
+ 
+  *** Object name:  view_1_output_points_plot
+  *** Class name :  output_points_plot
+  *** Message    :  Object created
+ 
+ 
+ 
+  *** Object name:  view_1_output_points_plot
+  *** Class name :  output_points_plot
+  *** Message    :  Definition of output_points_plot
+ 
+ Program started at 12:51:46 on 27 July 2023
+ 
+ 
+ ----- TASK No. 1 -----     Started at 12:51:46 on July 27, 2023
+ single_feed_coor set ( origin : struct(x: 0 m, y: 0 m, z: 5.5 m), class :
+ coor_sys)
+ 
+ 
+  *** Object name:  single_feed_coor
+  *** Class name :  coor_sys
+  *** Message    :  New values in object
+ 
+  Origin :   0.000000E+00 m     0.000000E+00 m     0.550000E+01 m
+  Z_axis :     0.522165    0.000000   -0.852844
+ 
+ ----- TASK No. 2 -----     Started at 12:51:46 on July 27, 2023
+ single_cut set ( file_name : single_cut1.cut, class : spherical_cut)
+ 
+ 
+  *** Object name:  single_cut
+  *** Class name :  spherical_cut
+  *** Message    :  New values in object
+ 
+  File name : single_cut1.cut
+ 
+ ----- TASK No. 3 -----     Started at 12:51:46 on July 27, 2023
+ single_po get_currents ( source : sequence(ref(single_feed)))
+ 
+ 
+  *** Object name:  single_po
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Get_currents message received
+ 
+  Source : single_feed
+ 
+ 
+  *** Object name:  single_po
+  *** Class name :  po_single_face_scatterer
+  *** Message    :  Initialization
+ 
+ 
+  Auto-convergence with desired accuracy of -80.00 dB.
+ 
+  Face 1:
+  Max. values: po1/po2 = 5400/12980
+ 
+ PO convergence
+  Test-grid  Ref-grid    Freq  Beam  Grid       P_max   P_level  Accuracy
+    po1/po2   po1/po2                           [dBi]     [dBi]      [dB]
+      20/10     10/10       1     1     1       53.24     53.24    -14.46
+      20/10     10/10       1     1     2       53.24     53.24     -7.81
+      40/10     20/10       1     1     1       53.24     53.24    -41.68
+      40/10     20/10       1     1     2       53.24     53.24    -12.40
+      80/10     40/10       1     1     1       53.24     53.24   -265.87  *
+      80/10     40/10       1     1     2       53.24     53.24    -11.85
+     160/10     80/10       1     1     2       53.24     53.24    -18.44
+     320/10    160/10       1     1     2       53.24     53.24    -28.65
+     640/10    320/10       1     1     2       53.24     53.24   -239.29  *
+     240/10    640/10       1     1     2       53.24     53.24   -238.10  *
+     200/10    640/10       1     1     2       53.24     53.24   -229.86  *
+     180/10    640/10       1     1     2       53.24     53.24    -70.90
+     190/10    640/10       1     1     2       53.24     53.24   -140.09  *
+     185/10    640/10       1     1     2       53.24     53.24   -102.52  *
+ 
+ PO convergence
+  Test-grid  Ref-grid    Freq  Beam  Grid       P_max   P_level  Accuracy
+    po1/po2   po1/po2                           [dBi]     [dBi]      [dB]
+      10/20     10/10       1     1     1       53.24     53.24    -13.72
+      10/20     10/10       1     1     2       53.24     53.24     -8.98
+      10/40     10/20       1     1     1       53.24     53.24    -14.90
+      10/40     10/20       1     1     2       53.24     53.24    -10.68
+      10/80     10/40       1     1     1       53.24     53.24    -21.88
+      10/80     10/40       1     1     2       53.24     53.24    -14.29
+     10/160     10/80       1     1     1       53.24     53.24    -67.70
+     10/160     10/80       1     1     2       53.24     53.24    -20.67
+     10/320    10/160       1     1     1       53.24     53.24   -270.52  *
+     10/320    10/160       1     1     2       53.24     53.24    -22.37
+     10/640    10/320       1     1     2       53.24     53.24    -29.38
+    10/1280    10/640       1     1     2       53.24     53.24    -45.47
+    10/2560   10/1280       1     1     2       53.24     53.24   -282.39  *
+     10/960   10/2560       1     1     2       53.24     53.24   -281.76  *
+     10/800   10/2560       1     1     2       53.24     53.24   -278.90  *
+     10/720   10/2560       1     1     2       53.24     53.24   -245.75  *
+     10/680   10/2560       1     1     2       53.24     53.24   -112.09  *
+     10/660   10/2560       1     1     2       53.24     53.24    -66.40
+  PO1 =  185  PO2 =  680  Face =    1, Final PO-values from auto-convergence
+ 
+  Relative power hitting scatterer:    0.924724
+  Spill-over:     0.3399 dB
+ 
+ ----- TASK No. 4 -----     Started at 12:51:47 on July 27, 2023
+ single_cut get_field ( source : sequence(ref(single_po)))
+ 
+ 
+  *** Object name:  single_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Get_field message received
+ 
+  Source : single_po
+ 
+  Name of currents file: tmp_0000
+ 
+  Control values found in the file:
+    No. of frequencies: 1
+    No. of beams      : 1
+    No. of faces      : 1
+    No. of edges      : 0
+    No. of gaps       : 0
+ 
+  Frequency number  1 :  17.700 GHz
+ 
+    Face No.      PO1       PO2     Partitions
+          1       185       680         9
+ 
+ 
+ 
+  *** Object name:  single_cut
+  *** Class name :  spherical_cut
+  *** Message    :  Field calculated
+ 
+  Frequency No. :     1
+  Beam No. :     1
+ 
+ ----- END OF TASKS -----     Completed at 12:51:49 on July 27, 2023
+ Total time was 2.81 sec
+ Program stopped at 12:51:49 on 27 July 2023
+ 
